@@ -27,6 +27,7 @@ yarn add easy-jsonp
 ```
 
 ```html
+# using script target
 <script src="jsonp.js"></script>
 ```
 
