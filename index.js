@@ -1,7 +1,7 @@
 const jsonp = ({
   url = '',
   params = {},
-  timeout = 3000,
+  timeout = 6000,
   callback = 'jsonpCallback'
 }) => {
   //拼接url
@@ -16,6 +16,7 @@ const jsonp = ({
   }
   paramsToString = paramsToString.slice(1);
   url += paramsToString;
+  callback = callback + String(new Date().getTime());
   url += `&callback=${callback}`;
   //url处理结束
   let timer; //timeout处理

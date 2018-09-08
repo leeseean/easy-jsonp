@@ -1,5 +1,5 @@
 {
-  "name": "better-jsonp",
+  "name": "easy-jsonp",
   "version": "1.0.0",
   "description": "A Promisable JSONP implementation",
   "main": "index.js",
