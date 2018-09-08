@@ -2,7 +2,7 @@
   "name": "easy-jsonp",
   "version": "1.0.0",
   "description": "A Promisable JSONP implementation",
-  "main": "index.js",
+  "main": "./dist/jsonp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p"
