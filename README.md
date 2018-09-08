@@ -47,7 +47,7 @@ jsonp({
   url: 'http://localhost',
   // global function named `callback` will be invoked when JSONP response
   callback: 'callback', // any different name from request module
-  timeout: 5000,
+  timeout: 3000,
   params: {
     // eg. ?key0=0&key1=1...
     key0: 0,
