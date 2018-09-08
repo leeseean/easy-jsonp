@@ -40,6 +40,7 @@ JSONP ***only*** support GET methods, same as `easy-JSONP`.
 ```js
 // as a request dependency named jsonp
 import jsonp from 'easy-jsonp'
+const jsonp = require('easy-jsonp').default
 ```
 
 ```js
