@@ -32,7 +32,7 @@ yarn add easy-jsonp
 
 ## Usage
 
-JSONP ***only*** support GET methods, same as `better-JSONP`.
+JSONP ***only*** support GET methods, same as `easy-JSONP`.
 
 - The code below show you how to use package as a dependency
 
