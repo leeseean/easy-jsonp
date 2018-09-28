@@ -20,18 +20,14 @@ const jsonp = ({
   url += `&callback=${callback}`;
   //url处理结束
   let timer; //timeout处理
-  // 发起请求
   const script = document.createElement('script');
   script.src = url;
-  document.head.appendChild(script);
-  //发起请求结束
 
   function cleanup() {
     timer && clearTimeout(timer);
     document.head.removeChild(script);
     window[callback] = undefined;
   }
-
   return new Promise((resolve, reject) => {
     //timeout处理
     if (timeout) {
@@ -46,6 +42,9 @@ const jsonp = ({
       resolve(data);
       cleanup();
     };
+    // 发起请求
+    document.head.appendChild(script);
+    //发起请求结束
   });
 };
 
