@@ -28,8 +28,8 @@ const jsonp = ({
 
   function cleanup() {
     timer && clearTimeout(timer);
-    window[callback] = undefined;
     document.head.removeChild(script);
+    window[callback] = undefined;
   }
 
   return new Promise((resolve, reject) => {
