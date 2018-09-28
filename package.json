@@ -1,6 +1,6 @@
 {
   "name": "easy-jsonp",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A Promisable JSONP implementation",
   "main": "./dist/jsonp.js",
   "scripts": {
