@@ -35,7 +35,6 @@ const jsonp = ({
         reject(new Error('Timeout'));
         cleanup();
       }, timeout);
-      return;
     }
     //正常处理
     window[callback] = (data) => {
