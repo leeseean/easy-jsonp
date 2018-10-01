@@ -10,4 +10,10 @@ module.exports = {
         library: `jsonp`,
         libraryTarget: 'umd'
     },
+    module: {
+        rules: [{
+            test: /\.js$/,
+            loader: 'babel-loader',
+        }]
+    }
 };
