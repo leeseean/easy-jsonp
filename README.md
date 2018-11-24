@@ -86,3 +86,11 @@ jsonp({
 - `Uncaught SyntaxError: Unexpected token :`error
 
 It mostly doesn't support JSONP request when you are calling a JSON api. The difference between JSON api and JSONP is that  JSON api response with an object like `{ num: 1 }` (It will throw a error when client executed this response as a function. ). On the other hand, JSONP will respond with a function wrapped object like `callback({ num: 1 })` and we will get what we need when client executed this response as a function.
+
+## Donate
+
+If you like this plugin, scan the qrcodes below and send me some tips, thank you!
+
+
+<img src="https://leeseean.github.io/my-original-songs/alipay.jpg" width="200px" />
+<img src="https://leeseean.github.io/my-original-songs/wechat.jpg" width="200px" />
