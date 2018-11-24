@@ -91,6 +91,9 @@ It mostly doesn't support JSONP request when you are calling a JSON api. The dif
 
 If you like this plugin, scan the qrcodes below and send me some tips, thank you!
 
-
-<img src="https://leeseean.github.io/my-original-songs/alipay.jpg" width="200px" />
-<img src="https://leeseean.github.io/my-original-songs/wechat.jpg" width="200px" />
+<table>
+  <tr>
+    <td><<img src="https://leeseean.github.io/my-original-songs/alipay.jpg" width="300px" /></td>
+    <td><img src="https://leeseean.github.io/my-original-songs/wechat.jpg" width="300px" /></td>
+  </tr>
+</table>
