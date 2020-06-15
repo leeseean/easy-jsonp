@@ -32,9 +32,20 @@ const jsonp = ({
     //timeout处理
     if (timeout) {
       timer = setTimeout(() => {
-        reject(new Error('Timeout'));
+        reject({
+          message: '请求超时',
+          type: 'error'
+        });
         cleanup();
       }, timeout);
+    }
+    //error处理
+    script.onerror = (e) => {
+      reject({
+        message: '请检查url是否拼写正确或后端有无配置jsonp响应',
+        type: 'error'
+      });
+      cleanup();
     }
     //正常处理
     window[callback] = (data) => {
